@@ -1,3 +1,22 @@
 #canvas{
     background-color: #eee;
 }
+.controlBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controlBox button{
+    width: 100px;
+    height: 40px;
+    margin: 10px 10px 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+.controlBox .score{
+    margin-right: 20px;
+
+}
+
